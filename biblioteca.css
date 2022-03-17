@@ -1,0 +1,66 @@
+p{
+    color: black !important;
+    background-color: red;
+}
+
+#primerDiv {
+    display: flex;
+    flex-direction: row;
+}
+
+img {
+    width: 100%;
+}
+
+#segundoDiv {
+    margin: auto;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+img:active{
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+ 
+}
+
+img:active{
+        box-shadow: 14px 8px 8px grey;
+}
+
+#primerDiv:active{
+
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+h2:hover {
+    font-size: 28px;
+}
+
+@media screen and (min-width: 300px) and (max-width: 550px) {
+    * {
+        visibility: hidden;
+    }
+}
+
+h1 {
+    display: none;
+}
+
+
+@media screen and (max-width: 800px) and (min-width: 500px) {
+  
+        #libro {
+            display: none;
+        }
+
+        h1{
+            display: block;
+            width: 100%;
+            color: rgb(0, 255, 64);
+            font-family: times;
+            }
+
+}

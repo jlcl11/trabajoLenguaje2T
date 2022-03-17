@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="biblioteca.xsl"?>
+<biblioteca  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="biblioteca.xsd">
+  <libro>
+    <foto>miki.webp</foto>
+    <titulo>A miki no le gusta el pienso</titulo>
+    <autor>Miki</autor>
+    <fechaPublicacion año="1976"/>
+  </libro>
+  <libro>
+    <foto>senda.webp</foto>
+    <titulo>Senda nació andaluza</titulo>
+    <autor fechaNacimiento="28/03/1936">Senda</autor>
+    <fechaPublicacion año="1973"/>
+  </libro>
+  <libro>
+    <foto>summer.webp</foto>
+    <titulo>Summer con s de seducción</titulo>
+    <autor fechaNacimiento="28/03/1936">Summer</autor>
+    <fechaPublicacion año="1969"/>
+  </libro>
+</biblioteca>
